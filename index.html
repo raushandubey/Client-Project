@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwasthSetu - Healthcare Aggregator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1><i class="fas fa-heartbeat"></i> SwasthSetu</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#doctors">Doctors</a>
+            <a href="#pharmacy">Pharmacy</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="auth-buttons">
+            <button class="login-btn"><i class="fas fa-user"></i> Login</button>
+            <button class="signup-btn"><i class="fas fa-user-plus"></i> Sign Up</button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Toggle navigation menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Your Health, Our Priority</h1>
+            <p>Connect with healthcare services at your fingertips</p>
+            <div class="search-container">
+                <div class="search-tabs">
+                    <button class="tab-btn active" data-tab="medicine">Medicines</button>
+                    <button class="tab-btn" data-tab="doctor">Doctors</button>
+                    <button class="tab-btn" data-tab="lab">Lab Tests</button>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Search for medicines, doctors, or services...">
+                    <button aria-label="Search"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>1000+</h3>
+                    <p>Doctors</p>
+                </div>
+                <div class="stat">
+                    <h3>500+</h3>
+                    <p>Pharmacies</p>
+                </div>
+                <div class="stat">
+                    <h3>100+</h3>
+                    <p>Hospitals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 data-aos="fade-up">Our Services</h2>
+        <div class="service-cards">
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-pills"></i>
+                <h3>Order Medicines</h3>
+                <p>Get medicines delivered from nearby stores</p>
+                <button class="service-btn">Order Now</button>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-stethoscope"></i>
+                <h3>Book Doctor</h3>
+                <p>Consult with doctors online or offline</p>
+                <button class="service-btn">Book Now</button>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-vial"></i>
+                <h3>Lab Tests</h3>
+                <p>Book lab tests with home sample collection</p>
+                <button class="service-btn">Book Test</button>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="400">
+                <i class="fas fa-ambulance"></i>
+                <h3>Ambulance</h3>
+                <p>Quick ambulance service with live tracking</p>
+                <button class="service-btn">Call Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section class="doctors" id="doctors">
+        <h2 data-aos="fade-up">Our Top Doctors</h2>
+        <div class="doctor-cards">
+            <div class="doctor-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="images/doctor1.jpg" alt="Dr. Mandal">
+                <h3>Dr. Mandal</h3>
+                <p>Cardiologist</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="book-btn">Book Appointment</button>
+            </div>
+            <div class="doctor-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="images/doctor2.jpg" alt="Dr. Raushan Dubey">
+                <h3>Dr. Raushan Dubey</h3>
+                <p>Neurologist</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="book-btn">Book Appointment</button>
+            </div>
+            <!-- Add more doctor cards -->
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2 data-aos="fade-up">Why Choose SwasthSetu?</h2>
+        <div class="feature-grid">
+            <div class="feature" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-clock"></i>
+                <h3>24/7 Service</h3>
+                <p>Round the clock healthcare support</p>
+            </div>
+            <div class="feature" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Verified Partners</h3>
+                <p>All healthcare providers are verified</p>
+            </div>
+            <div class="feature" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-wallet"></i>
+                <h3>Easy Payments</h3>
+                <p>Multiple payment options available</p>
+            </div>
+            <div class="feature" data-aos="fade-up" data-aos-delay="400">
+                <i class="fas fa-star"></i>
+                <h3>Quality Service</h3>
+                <p>Rated and reviewed by users</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2 data-aos="fade-up">What Our Users Say</h2>
+        <div class="testimonial-slider" data-aos="fade-up">
+            <div class="testimonial">
+                <div class="user-info">
+                    <img src="images/user1.jpg" alt="Raj Kumar Mandal">
+                    <div>
+                        <h4>Raj Kumar Mandal</h4>
+                        <p>Patient</p>
+                    </div>
+                </div>
+                <p class="testimonial-text">"Amazing service! Got my medicines delivered within 30 minutes."</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <!-- Add more testimonials -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#pharmacy">Pharmacy</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> support@swasthsetu.com</p>
+                <p><i class="fas fa-phone"></i> +91 1234567890</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Healthcare Street, Medical City</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="app-download">
+                    <h4>Download Our App</h4>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-google-play"></i>
+                            <span>Google Play</span>
+                        </a>
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-apple"></i>
+                            <span>App Store</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SwasthSetu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <p class="form-footer">Don't have an account? <a href="#" id="showSignup">Sign Up</a></p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
