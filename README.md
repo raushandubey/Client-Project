@@ -87,4 +87,20 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/swasthsetu 
+Project Link: https://github.com/yourusername/swasthsetu
+
+## Deployment
+
+This project is deployed and maintained by **Raushan Dubey**.
+
+To deploy your own version:
+
+1. Ensure all dependencies are included in your project directory.
+2. Host the project on any static hosting platform (such as GitHub Pages, Netlify, or Vercel).
+3. For GitHub Pages:
+    - Push your code to your GitHub repository.
+    - Go to your repository settings.
+    - Enable GitHub Pages from the `main` branch or `/docs` folder.
+    - Your site will be available at `https://yourusername.github.io/swasthsetu/`.
+
+For any deployment-related queries, contact **Raushan Dubey**.
